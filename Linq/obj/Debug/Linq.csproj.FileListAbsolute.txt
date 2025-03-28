@@ -1,0 +1,7 @@
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\bin\Debug\Linq.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\bin\Debug\Linq.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\bin\Debug\Linq.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\obj\Debug\Linq.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Linq\obj\Debug\Linq.pdb
