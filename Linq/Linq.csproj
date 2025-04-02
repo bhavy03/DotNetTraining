@@ -43,9 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregate.cs" />
+    <Compile Include="Filtering.cs" />
+    <Compile Include="Grouping.cs" />
+    <Compile Include="Joins.cs" />
+    <Compile Include="Ordering.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Projection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quantifiers.cs" />
+    <Compile Include="SetOperators.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

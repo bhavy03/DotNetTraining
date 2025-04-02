@@ -47,6 +47,44 @@ namespace Linq
                     Console.WriteLine("  Name :" + student.Name + ", Age: " + student.Age + ", Branch :" + student.Barnch);
                 }
             }
+
+            // Grouping in multiple groups 
+            var GroupByMultipleKeysMS = Student.GetStudents()
+               //Grouping Multiple Keys using an Anonymous Object
+               .GroupBy(x => new { x.Barnch, x.Gender })
+               //.GroupBy(student => (student.Branch, student.Gender)) this is using tuple
+               .Select(g => new
+               {
+                   Branch = g.Key.Barnch,
+                   Gender = g.Key.Gender,
+                   Students = g.OrderBy(x => x.Name)
+               }); ;
+            //Using Query Syntax
+            var GroupByMultipleKeysQS = (from std in Student.GetStudents()
+                                             //Grouping Multiple Keys using an Anonymous Object
+                                         group std by new
+                                         {
+                                             std.Barnch,
+                                             std.Gender
+                                         } into stdGroup
+                                         select new
+                                         {
+                                             Branch = stdGroup.Key.Barnch,
+                                             Gender = stdGroup.Key.Gender,
+                                             //Sort the Students of Each group by Name in Ascending Order
+                                             Students = stdGroup.OrderBy(x => x.Name)
+                                         });
+            //It will iterate through each group
+            foreach (var group in GroupByMultipleKeysQS)
+            {
+                Console.WriteLine($"Barnch : {group.Branch} Gender: {group.Gender} No of Students = {group.Students.Count()}");
+                //It will iterate through each item of a group
+                foreach (var student in group.Students)
+                {
+                    Console.WriteLine($"  ID: {student.ID}, Name: {student.Name}, Age: {student.Age} ");
+                }
+                Console.WriteLine();
+            }
         }
     }
     public class Student
@@ -74,3 +112,8 @@ namespace Linq
         }
     }
 }
+
+
+//The LINQ ToLookup Method exactly does the same thing as the LINQ GroupBy Method.
+//The only difference between these two methods is that the GroupBy method uses Deferred Execution,
+//whereas the ToLookup method uses Immediate Execution.

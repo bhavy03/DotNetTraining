@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="Constructors.cs" />
+    <Compile Include="ElementOperators.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Partitioning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
