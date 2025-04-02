@@ -1,0 +1,7 @@
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\bin\Debug\Question_Week4&5.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\bin\Debug\Question_Week4&5.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\bin\Debug\Question_Week4&5.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\obj\Debug\Question_Week4&5.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\obj\Debug\Question_Week4&5.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\obj\Debug\Question_Week4&5.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Question_Week4&5\obj\Debug\Question_Week4&5.pdb
