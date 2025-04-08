@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace AssetManagement
 {
-    class Books
+    class Books : Assets
     {
-        public int serialNumber { get; set; }
-        public string nameOfBook { get; set; }
+        //public int serialNumber { get; set; }
+        //public string nameOfBook { get; set; }
         public string author { get; set; }
         public DateTime Date { get; set; }
 
 
         public void display()
         {
-            Console.WriteLine($"{serialNumber,-15} {nameOfBook,-20} {author,-20} {Date,-15}");
+            Console.WriteLine($"{SerialNumber,-15} {Name,-20} {author,-20} {Date,-15}");
         }
 
     }

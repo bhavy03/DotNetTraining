@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="EFModel1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="EFModel1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Students" EntityType="EFModel1.Student" />
+    <EntitySet Name="Classes" EntityType="EFModel1.Class" />
+    <AssociationSet Name="ClassStudent" Association="EFModel1.ClassStudent">
+      <End Role="Class" EntitySet="Classes" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Class" Relationship="EFModel1.ClassStudent" FromRole="Student" ToRole="Class" />
+  </EntityType>
+  <EntityType Name="Class">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Students" Relationship="EFModel1.ClassStudent" FromRole="Class" ToRole="Student" />
+  </EntityType>
+  <Association Name="ClassStudent">
+    <End Type="EFModel1.Class" Role="Class" Multiplicity="1" />
+    <End Type="EFModel1.Student" Role="Student" Multiplicity="*" />
+  </Association>
+</Schema>

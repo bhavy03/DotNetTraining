@@ -18,13 +18,13 @@ namespace AssetManagement
                     Console.WriteLine("Enter Serial Number:");
                     sNo = Convert.ToInt32(Console.ReadLine());
 
-                    if (AssestManager.booksList.Exists(b => b.serialNumber == sNo))
+                    if (AssestManager.booksList.Exists(b => b.SerialNumber == sNo))
                     {
                         Console.WriteLine("This Serial Number already exists. Enter another Serial Number!!");
                     }
                     else
                     {
-                        break; 
+                        break;
                     }
                 }
                 Console.WriteLine("Enter Book Name:");
@@ -36,8 +36,8 @@ namespace AssetManagement
 
                 Books newBook = new Books()
                 {
-                    serialNumber = sNo,
-                    nameOfBook = bName,
+                    SerialNumber = sNo,
+                    Name = bName,
                     author = aName,
                     Date = pDate
                 };
@@ -63,7 +63,7 @@ namespace AssetManagement
                     case 1:
                         Console.WriteLine("Enter New name");
                         string newName = Console.ReadLine();
-                        book.nameOfBook = newName;
+                        book.Name = newName;
                         break;
                     case 2:
                         Console.WriteLine("Enter new Author Name");

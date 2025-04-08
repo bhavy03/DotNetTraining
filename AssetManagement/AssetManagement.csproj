@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssestManager.cs" />
+    <Compile Include="Assets.cs" />
     <Compile Include="BookManager.cs" />
     <Compile Include="Books.cs" />
     <Compile Include="Hardware.cs" />

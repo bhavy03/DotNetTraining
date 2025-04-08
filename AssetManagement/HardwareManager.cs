@@ -28,13 +28,12 @@ namespace AssetManagement
                 }
                 Console.WriteLine("Enter Model Name:");
                 string mName = Console.ReadLine();
-                Console.WriteLine("Enter Manufacuterer: ");
                 string manu = Console.ReadLine();
 
                 Hardware newHardware = new Hardware()
                 {
                     SerialNumber = sNo,
-                    modelName = mName,
+                    Name = mName,
                     Manufacturer = manu
                 };
                 return newHardware;
@@ -58,7 +57,7 @@ namespace AssetManagement
                     case 1:
                         Console.WriteLine("Enter New name");
                         string newName = Console.ReadLine();
-                        hardware.modelName = newName;
+                        hardware.Name = newName;
                         break;
                     case 2:
                         Console.WriteLine("Enter new Manufacturer");

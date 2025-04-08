@@ -17,16 +17,16 @@ namespace AssetManagement
                 {
                     Console.WriteLine("Enter Serial Number:");
                     sNo = Convert.ToInt32(Console.ReadLine());
-                    if(AssestManager.licenseList.Exists(s => s.serialNumber == sNo))
+                    if (AssestManager.licenseList.Exists(s => s.SerialNumber == sNo))
                     {
-                        Console.WriteLine("This Serial Number already exists. Enter another Serial Number!!"); 
+                        Console.WriteLine("This Serial Number already exists. Enter another Serial Number!!");
                     }
                     else
                     {
                         break;
                     }
                 }
-                
+
                 Console.WriteLine("Enter Software Name:");
                 string sName = Console.ReadLine();
                 Console.WriteLine("Enter License key: ");
@@ -36,8 +36,8 @@ namespace AssetManagement
 
                 SoftwareLicense newLicense = new SoftwareLicense()
                 {
-                    serialNumber = sNo,
-                    softwareName = sName,
+                    SerialNumber = sNo,
+                    Name = sName,
                     licenseKey = lKey,
                     expiryDate = eDate
                 };
@@ -65,7 +65,7 @@ namespace AssetManagement
                     case 1:
                         Console.WriteLine("Enter New name");
                         string newName = Console.ReadLine();
-                        software.softwareName = newName;
+                        software.Name = newName;
                         break;
                     case 2:
                         Console.WriteLine("Enter new License Key");

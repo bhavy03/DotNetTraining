@@ -5,3 +5,10 @@ C:\Users\bhavya.soni\source\repos\Project1\AssetManagement\obj\Debug\AssetManage
 C:\Users\bhavya.soni\source\repos\Project1\AssetManagement\obj\Debug\AssetManagement.csproj.CoreCompileInputs.cache
 C:\Users\bhavya.soni\source\repos\Project1\AssetManagement\obj\Debug\AssetManagement.exe
 C:\Users\bhavya.soni\source\repos\Project1\AssetManagement\obj\Debug\AssetManagement.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\bin\Debug\AssetManagement.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\bin\Debug\AssetManagement.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\obj\Debug\AssetManagement.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\obj\Debug\AssetManagement.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\obj\Debug\AssetManagement.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\AssetManagement\obj\Debug\AssetManagement.pdb

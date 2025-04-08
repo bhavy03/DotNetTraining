@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace AssetManagement
 {
-    class SoftwareLicense
+    class SoftwareLicense : Assets
     {
-        public int serialNumber { get; set; }
-        public string softwareName { get; set; }
+        //public int serialNumber { get; set; }
+        //public string softwareName { get; set; }
         public string licenseKey { get; set; }
         public DateTime expiryDate { get; set; }
 
         public void display()
         {
-            Console.WriteLine($"{serialNumber,-15} {softwareName,-20} {licenseKey,-20} {expiryDate,-15}");
+            Console.WriteLine($"{SerialNumber,-15} {Name,-20} {licenseKey,-20} {expiryDate,-15}");
         }
 
     }

@@ -56,7 +56,7 @@ namespace AssetManagement
                 case 1:
                     Console.WriteLine("Enter the serial Number");
                     int sNO = Convert.ToInt32(Console.ReadLine());
-                    var book = booksList.Find(b => b.serialNumber == sNO);
+                    var book = booksList.Find(b => b.SerialNumber == sNO);
                     Console.WriteLine(book != null ? $"Found:" : "Book not found\n");
                     if (book != null)
                     {
@@ -68,7 +68,7 @@ namespace AssetManagement
                 case 2:
                     Console.WriteLine("Enter the serial Number");
                     int seNO = Convert.ToInt32(Console.ReadLine());
-                    var software = licenseList.Find(s => s.serialNumber == seNO);
+                    var software = licenseList.Find(s => s.SerialNumber == seNO);
                     Console.WriteLine(software != null ? $"Found:" : "Software not found\n");
                     if (software != null)
                     {
@@ -105,9 +105,9 @@ namespace AssetManagement
                 case 1:
                     Console.WriteLine("Enter the serial Number");
                     int sNO = Convert.ToInt32(Console.ReadLine());
-                    if (booksList.Exists(b => b.serialNumber == sNO))
+                    if (booksList.Exists(b => b.SerialNumber == sNO))
                     {
-                        var book = booksList.RemoveAll(b => b.serialNumber == sNO);
+                        var book = booksList.RemoveAll(b => b.SerialNumber == sNO);
                         Console.WriteLine("Item Removed successfully");
 
                     }
@@ -119,9 +119,9 @@ namespace AssetManagement
                 case 2:
                     Console.WriteLine("Enter the serial Number");
                     int seNO = Convert.ToInt32(Console.ReadLine());
-                    if (licenseList.Exists(b => b.serialNumber == seNO))
+                    if (licenseList.Exists(b => b.SerialNumber == seNO))
                     {
-                        var software = licenseList.RemoveAll(s => s.serialNumber == seNO);
+                        var software = licenseList.RemoveAll(s => s.SerialNumber == seNO);
                         Console.WriteLine("Item Removed successfully");
                     }
                     else
@@ -157,7 +157,7 @@ namespace AssetManagement
                 case 1:
                     Console.WriteLine("Enter the serial Number");
                     int sNO = Convert.ToInt32(Console.ReadLine());
-                    var book = booksList.Find(b => b.serialNumber == sNO);
+                    var book = booksList.Find(b => b.SerialNumber == sNO);
                     Console.WriteLine(book != null ? $"Found:" : "Book not found\n");
                     if (book != null)
                     {
@@ -167,7 +167,7 @@ namespace AssetManagement
                 case 2:
                     Console.WriteLine("Enter the serial Number");
                     int seNO = Convert.ToInt32(Console.ReadLine());
-                    var software = licenseList.Find(s => s.serialNumber == seNO);
+                    var software = licenseList.Find(s => s.SerialNumber == seNO);
                     Console.WriteLine(software != null ? $"Found:" : "Software not found\n");
                     if (software != null)
                     {

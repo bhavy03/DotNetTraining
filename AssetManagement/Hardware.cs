@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace AssetManagement
 {
-    class Hardware
+    class Hardware : Assets
     {
-        public int SerialNumber { get; set; }
-        public string modelName { get; set; }
+        //public int SerialNumber { get; set; }
+        //public string modelName { get; set; }
         public string Manufacturer { get; set; }
 
         public void display()
         {
-            Console.WriteLine($"{SerialNumber,-15} {modelName,-20} {Manufacturer,-15}");
+            Console.WriteLine($"{SerialNumber,-15} {Name,-20} {Manufacturer,-15}");
         }
 
     }

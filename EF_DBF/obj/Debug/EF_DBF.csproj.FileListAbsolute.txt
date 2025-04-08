@@ -1,0 +1,12 @@
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EF_DBF.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EF_DBF.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EF_DBF.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EntityFramework.dll
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EntityFramework.xml
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\obj\Debug\EF_DBF.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\obj\Debug\EF_DBF.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\obj\Debug\EF_DBF.csproj.Up2Date
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\obj\Debug\EF_DBF.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\EF_DBF\obj\Debug\EF_DBF.pdb
