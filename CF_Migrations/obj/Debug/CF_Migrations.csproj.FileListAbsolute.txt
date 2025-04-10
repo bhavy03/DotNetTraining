@@ -1,5 +1,3 @@
-C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.AssemblyReference.cache
-C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.CoreCompileInputs.cache
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\CF_Migrations.exe.config
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\CF_Migrations.exe
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\CF_Migrations.pdb
@@ -7,8 +5,10 @@ C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\EntityFr
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\EntityFramework.xml
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.Migrations.Initial.resources
+C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.GenerateResource.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.CoreCompileInputs.cache
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migra.B5B916FA.Up2Date
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.exe
 C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.pdb
-C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.Migrations.Initial.resources
-C:\Users\bhavya.soni\source\repos\DotNetTraning\CF_Migrations\obj\Debug\CF_Migrations.csproj.GenerateResource.cache

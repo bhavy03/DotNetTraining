@@ -1,0 +1,7 @@
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\bin\Debug\Oops.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\bin\Debug\Oops.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\bin\Debug\Oops.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\obj\Debug\Oops.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\obj\Debug\Oops.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\obj\Debug\Oops.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Oops\obj\Debug\Oops.pdb

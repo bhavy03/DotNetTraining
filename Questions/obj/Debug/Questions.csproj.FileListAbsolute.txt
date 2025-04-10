@@ -5,3 +5,10 @@ C:\Users\bhavya.soni\source\repos\Project1\Questions\obj\Debug\Questions.csproj.
 C:\Users\bhavya.soni\source\repos\Project1\Questions\obj\Debug\Questions.csproj.CoreCompileInputs.cache
 C:\Users\bhavya.soni\source\repos\Project1\Questions\obj\Debug\Questions.exe
 C:\Users\bhavya.soni\source\repos\Project1\Questions\obj\Debug\Questions.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\bin\Debug\Questions.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\bin\Debug\Questions.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\bin\Debug\Questions.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\obj\Debug\Questions.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\obj\Debug\Questions.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\obj\Debug\Questions.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Questions\obj\Debug\Questions.pdb

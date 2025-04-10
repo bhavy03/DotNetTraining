@@ -5,3 +5,10 @@ C:\Users\bhavya.soni\source\repos\Project1\Basic\bin\Debug\Basic.exe
 C:\Users\bhavya.soni\source\repos\Project1\Basic\bin\Debug\Basic.pdb
 C:\Users\bhavya.soni\source\repos\Project1\Basic\obj\Debug\Basic.exe
 C:\Users\bhavya.soni\source\repos\Project1\Basic\obj\Debug\Basic.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\bin\Debug\Basic.exe.config
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\bin\Debug\Basic.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\bin\Debug\Basic.pdb
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\obj\Debug\Basic.csproj.AssemblyReference.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\obj\Debug\Basic.csproj.CoreCompileInputs.cache
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\obj\Debug\Basic.exe
+C:\Users\bhavya.soni\source\repos\DotNetTraning\Basic\obj\Debug\Basic.pdb
